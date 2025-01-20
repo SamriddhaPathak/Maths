@@ -6,7 +6,7 @@ with open('collatz_conjecture.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['number', 'collatz_conjecture'])
 
-    for i in range(1, n+1, 1):
+    for i in range(1, n + 1, 1):
         con_list = [i]
         original_i = i  # Save the original number
         while i != 1:
