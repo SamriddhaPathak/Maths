@@ -21,3 +21,4 @@ nums = [2, 7, 11, 15]
 target = 9
 result = two_sum(nums, target)
 print("Indices:", result)  # Output: Indices: [0, 1]
+#Try with different nums adn target 
